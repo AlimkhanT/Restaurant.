@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact </title>
+  <script src="javascript/contact.js"></script>
+  <link rel="stylesheet" href="contactcss.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" id="#logo" href="#">
+          <img src="images/MAINLOGO2.png" width="200">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <img src="images/burger-img.png">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="menu.html">Меню</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+  <div class="container mt-5">
+    <h1 id="contactText">Контакты</h1>
+    <hr>
+    <form>
+      <div class="form-group">
+        <label for="name">Имя:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Почта:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="message">Сообщение:</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Write a message"></textarea>
+      </div>
+      <button type="submit" id="submitButton" class="btn btn-primary">Отправить</button>
+  </form>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <div class="footer">
+  <section class="social">
+    <div id="footer">
+      <button class="gradient-button" onclick="showRandomQuote()">Показать цитату</button>
+      <p id="quote"></p>
+    </div>
+</div>
+<h1>Мы на карте</h1>
+    <div id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d520.3933507505208!2d71.39556224279157!3d42.902178125999875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a71cd86c8ae3db%3A0xb03376879af21687!2sCenter%20Plova%20%22Sultan%22!5e0!3m2!1sen!2skz!4v1682271912568!5m2!1sen!2skz" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <div class="container text-center">
+        <ul>
+            
+                <a href="https://www.instagram.com/center_plova_sultan/"><img src="https://img.icons8.com/fluent/50/000000/instagram-new.png"/></a>
+           
+                <a href=" https://wa.me/+77085342004"><img src="https://img.icons8.com/fluent/50/000000/whatsapp"/></a>
+        
+        </ul>
+    </div>
+</section>
+</body>
+</html>

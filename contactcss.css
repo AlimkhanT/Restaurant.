@@ -1,0 +1,82 @@
+body
+{
+    background-image: url(images/contactus.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height:  100%vh;
+}
+
+h1
+{
+    color: #ff8400c2;
+    text-align: center;
+}
+label{
+    color: #ff8400c2;
+}
+.navbar-toggler-icon {
+    color: rgb(182, 112, 112);
+  }
+  #footer {
+    background-color: #251231;
+    padding: 20px;
+    text-align: center;
+    color: #ececec;
+    
+  }
+  .gradient-button{
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        padding: 20px 30px;
+        margin: 10px 20px;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+        background-size: 200% auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        transition: .5s;
+      }
+      .gradient-button:hover {
+        background-position: right center;
+      }
+ 
+
+.navbar {
+    background-image: url(/images/black-bg.jpg);
+    
+  }
+
+  
+  .navbar a {
+    color: rgba(255, 149, 0, 0.815);
+    font-size: 18px;
+  }
+
+  
+  .active {
+    font-weight: bold;
+  }
+  .social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+map{
+    height: 400px;
+    width: 100%;
+}
+
+.social{
+        padding: 5% 0;
+    }
+.name
+{
+  color: #000;
+}
